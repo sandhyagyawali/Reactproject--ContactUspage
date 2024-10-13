@@ -1,0 +1,108 @@
+
+.container{
+  width: 975px;
+  height: 144px;
+  margin:  auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.container h1{
+  font-size: 48px;
+  font-weight: 600px;
+}
+.container p{
+  color: grey;
+  font-size: 16px;
+  font-weight: 600;
+}
+.contact-us{
+  width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+ .contact-btn{
+  display: flex;
+  gap: 30px;
+ }
+.contact-btn .btn{
+  background-color: black;
+  color: white;
+  min-width: 220px;
+  height: 44px;
+  border-radius: 5px;
+  padding: 18px 10px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+ }
+ .email button{
+  background:transparent;
+  color: black;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  height: 44px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 18px 10px;
+  font-size: 16px;
+  cursor: pointer;
+ }
+ form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+ }
+ .form_control{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+ }
+ .form_control input{
+  height: 40px;
+  padding: 0 8px;
+ }
+ .form_control label{
+  position: absolute;
+  top: -14px;
+  left: 14px;
+  background-color: white;
+  padding: 0 10px;
+  font-size: 14px;
+  font-weight: 600;
+ }
+ .submit{
+  display: flex;
+  justify-content: end;
+  margin: 0 auto;
+  width: 90%;
+ }
+.submit button{
+  background-color: black;
+  color: white;
+  min-width: 220px;
+  height: 44px;
+  border-radius: 5px;
+  padding: 18px 10px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+ }

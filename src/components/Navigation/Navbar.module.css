@@ -1,0 +1,15 @@
+nav{
+  width: 1400px;
+  height: 72px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul{
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  font-weight: 500;
+  color: gray;
+}
